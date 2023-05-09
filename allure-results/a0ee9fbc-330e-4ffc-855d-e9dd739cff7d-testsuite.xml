@@ -1,0 +1,136 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683663285002' stop='1683663298297'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1683663285002' status='passed' stop='1683663297870'>
+            <name>Debería ir a iniciar sesion</name>
+            <title>Debería ir a iniciar sesion</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1683663285005' status='passed' stop='1683663295192'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='835ef5c3-d29c-4628-be84-f906ea8caeaf-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='6f637082-e4d6-4006-80d4-11a6884ed7bf-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps>
+                        <step start='1683663285011' status='passed' stop='1683663295171'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='380baecd-4969-4ff0-af57-27323937bc95-attachment.json' type='application/json' size='48'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1683663295201' status='passed' stop='1683663295263'>
+                    <name>POST /session/:sessionId/element/E59673D84C945D466D67E9489FF9E855_element_35/click</name>
+                    <title>POST /session/:sessionId/element/E59673D84C945D466D67E9489FF9E855_element_35/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683663295264' status='passed' stop='1683663295303'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='98087a6a-9296-4328-951e-b1e5f3670904-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='dadc651a-2307-457b-9acc-3802e95b91ed-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683663295305' status='passed' stop='1683663295865'>
+                    <name>POST /session/:sessionId/element/E59673D84C945D466D67E9489FF9E855_element_36/click</name>
+                    <title>POST /session/:sessionId/element/E59673D84C945D466D67E9489FF9E855_element_36/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1683663297871' status='broken' stop='1683663298295'>
+            <name>Debería ingresar credenciales válidas para iniciar sesion</name>
+            <title>Debería ingresar credenciales válidas para iniciar sesion</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1683663297872' status='passed' stop='1683663297906'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0e5ce9f3-e934-4290-8912-9c7d9f32a105-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='9bec4caf-24c5-4fdd-b774-5b19d001ee45-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683663297909' status='passed' stop='1683663297960'>
+                    <name>POST /session/:sessionId/element/8A8A5C710497DDCF6121BAAF410B2845_element_43/clear</name>
+                    <title>POST /session/:sessionId/element/8A8A5C710497DDCF6121BAAF410B2845_element_43/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683663297966' status='passed' stop='1683663298042'>
+                    <name>POST /session/:sessionId/element/8A8A5C710497DDCF6121BAAF410B2845_element_43/value</name>
+                    <title>POST /session/:sessionId/element/8A8A5C710497DDCF6121BAAF410B2845_element_43/value</title>
+                    <attachments>
+                        <attachment title='Request' source='eed7fce0-438c-4c12-91e7-094192f95b40-attachment.json' type='application/json' size='35'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683663298043' status='passed' stop='1683663298067'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='26bc3c36-aa91-4714-b265-a270b5715690-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='feef69cd-cfc3-4bb0-8ba2-5083e68e8c21-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683663298069' status='passed' stop='1683663298101'>
+                    <name>POST /session/:sessionId/element/8A8A5C710497DDCF6121BAAF410B2845_element_44/clear</name>
+                    <title>POST /session/:sessionId/element/8A8A5C710497DDCF6121BAAF410B2845_element_44/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683663298102' status='passed' stop='1683663298170'>
+                    <name>POST /session/:sessionId/element/8A8A5C710497DDCF6121BAAF410B2845_element_44/value</name>
+                    <title>POST /session/:sessionId/element/8A8A5C710497DDCF6121BAAF410B2845_element_44/value</title>
+                    <attachments>
+                        <attachment title='Request' source='5bf1fa0e-ee0e-4688-a808-e1946468b0e8-attachment.json' type='application/json' size='29'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683663298176' status='passed' stop='1683663298294'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='789fa013-c49e-4a82-ae3a-c79a79051c19-attachment.png' type='image/png' size='66878'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>title is not defined</message>
+                <stack-trace>ReferenceError: title is not defined
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/madisonisland.test.js:15:9)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
