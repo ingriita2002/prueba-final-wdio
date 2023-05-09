@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683126708926' stop='1683126712455'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1683126708926' status='broken' stop='1683126712454'>
+            <name>Debería buscar apple cinema</name>
+            <title>Debería buscar apple cinema</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.64'/>
+            </parameters>
+            <steps>
+                <step start='1683126708929' status='passed' stop='1683126711464'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e4f0eef4-056c-4d3f-88e3-233b992a128f-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683126711466' status='passed' stop='1683126711496'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ba3806d4-c8c1-4d20-a9b6-ff9334f30d39-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='448e6e88-8e0b-4945-b31f-604ca6f35c8c-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683126711502' status='passed' stop='1683126711553'>
+                    <name>POST /session/:sessionId/element/1451A680C3214999292D7F56773C7320_element_62/click</name>
+                    <title>POST /session/:sessionId/element/1451A680C3214999292D7F56773C7320_element_62/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683126711553' status='passed' stop='1683126711578'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b08a4c68-7d94-4457-843a-38b9e1b1e9ae-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='2e02a4f7-69c3-4927-9970-0348733fd7b4-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683126711581' status='passed' stop='1683126711623'>
+                    <name>POST /session/:sessionId/element/1451A680C3214999292D7F56773C7320_element_17/clear</name>
+                    <title>POST /session/:sessionId/element/1451A680C3214999292D7F56773C7320_element_17/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683126711629' status='passed' stop='1683126711705'>
+                    <name>POST /session/:sessionId/element/1451A680C3214999292D7F56773C7320_element_17/value</name>
+                    <title>POST /session/:sessionId/element/1451A680C3214999292D7F56773C7320_element_17/value</title>
+                    <attachments>
+                        <attachment title='Request' source='68684a8c-4173-4041-b350-2dcfc72a1c47-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683126711706' status='passed' stop='1683126712289'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='cde82e6b-d4e7-4ae2-a434-e229a2012e1b-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683126712289' status='passed' stop='1683126712314'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683126712320' status='passed' stop='1683126712452'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6333c18c-3aa6-40fd-90f2-ae5c24edd7db-attachment.png' type='image/png' size='70686'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.timeout is not a function</message>
+                <stack-trace>TypeError: browser.timeout is not a function
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/opencart.test.js:9:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

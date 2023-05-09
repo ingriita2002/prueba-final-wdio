@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683580663761' stop='1683580666096'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1683580663761' status='broken' stop='1683580666095'>
+            <name>Debería iniciar sesion</name>
+            <title>Debería iniciar sesion</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.64'/>
+            </parameters>
+            <steps>
+                <step start='1683580663764' status='passed' stop='1683580665740'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1570e6f8-e95a-46c1-9fcb-ff8fac4de016-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='d518ae59-b58e-403d-8688-9c4a3ab0eab2-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps>
+                        <step start='1683580663771' status='passed' stop='1683580665722'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='7796242c-06aa-4075-848f-8a046747cc33-attachment.json' type='application/json' size='48'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1683580665746' status='passed' stop='1683580665798'>
+                    <name>POST /session/:sessionId/element/C7ACB71506C1905C8555622E9FABADA4_element_35/elements</name>
+                    <title>POST /session/:sessionId/element/C7ACB71506C1905C8555622E9FABADA4_element_35/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='636b5c00-f9cf-4fa3-82ed-85880b707851-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='18dfc440-8cf4-4cc1-9f8e-a80534247bdd-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683580665805' status='passed' stop='1683580666093'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3f6610bc-d27f-4c24-b986-6d762f91b2f0-attachment.png' type='image/png' size='521709'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Select element doesn't contain any option element</message>
+                <stack-trace>Error: Select element doesn't contain any option element
+                    at Element.selectByIndex (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\element\selectByIndex.js:45:15)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Element.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/opencart.test.js:5:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

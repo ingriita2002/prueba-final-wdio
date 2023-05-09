@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1682364149541' stop='1682364153113'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1682364149541' status='passed' stop='1682364153112'>
+            <name>Debería buscar iphone</name>
+            <title>Debería buscar iphone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.138'/>
+            </parameters>
+            <steps>
+                <step start='1682364149543' status='passed' stop='1682364153022'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e49122f6-7609-4ebd-844b-4cfc72a4cc85-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682364153026' status='passed' stop='1682364153058'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c37ce589-5490-47f0-bb1f-f8adf0227a4b-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='289b2d07-d972-4502-923a-5db6043a185b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682364153064' status='passed' stop='1682364153111'>
+                    <name>POST /session/:sessionId/element/46fae67c-be84-4abd-856d-e6ca1b6096bb/click</name>
+                    <title>POST /session/:sessionId/element/46fae67c-be84-4abd-856d-e6ca1b6096bb/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

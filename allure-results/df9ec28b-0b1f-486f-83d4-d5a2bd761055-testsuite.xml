@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683130076392' stop='1683130080684'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1683130076393' status='broken' stop='1683130080683'>
+            <name>Debería buscar apple cinema</name>
+            <title>Debería buscar apple cinema</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.64'/>
+            </parameters>
+            <steps>
+                <step start='1683130076396' status='passed' stop='1683130079574'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1eb191f7-f617-475d-9b33-3c5535ef76fb-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683130079577' status='passed' stop='1683130079610'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2b65e8db-e3c8-4f43-88b4-caebe52bbba0-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='33221688-b19b-4f8d-8ecb-c49790f4b78f-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683130079616' status='passed' stop='1683130079662'>
+                    <name>POST /session/:sessionId/element/B0050EBA77CB8401D33BA198929B069B_element_47/click</name>
+                    <title>POST /session/:sessionId/element/B0050EBA77CB8401D33BA198929B069B_element_47/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683130079663' status='passed' stop='1683130079685'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7a575482-7f61-452c-865d-33c80236d08c-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='c7004386-66c6-4958-87bf-650b9026d541-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683130079688' status='passed' stop='1683130079727'>
+                    <name>POST /session/:sessionId/element/B0050EBA77CB8401D33BA198929B069B_element_48/clear</name>
+                    <title>POST /session/:sessionId/element/B0050EBA77CB8401D33BA198929B069B_element_48/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683130079733' status='passed' stop='1683130079804'>
+                    <name>POST /session/:sessionId/element/B0050EBA77CB8401D33BA198929B069B_element_48/value</name>
+                    <title>POST /session/:sessionId/element/B0050EBA77CB8401D33BA198929B069B_element_48/value</title>
+                    <attachments>
+                        <attachment title='Request' source='9397086b-aca4-4e5a-8df4-ab5dbb3ffc47-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683130079804' status='passed' stop='1683130080470'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='53bbf649-88f4-4207-ad6d-d9239a2ecc97-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683130080470' status='passed' stop='1683130080492'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683130080492' status='broken' stop='1683130080683'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fc17098e-d13a-4513-a2b0-b89c69ff7a86-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps>
+                        <step start='1683130080576' status='passed' stop='1683130080682'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='ccce3a4d-0a0e-444b-8db8-28aaac735789-attachment.png' type='image/png' size='70686'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "[value="Apple Cinema 30""]" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "[value="Apple Cinema 30""]" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/opencart.test.js:9:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

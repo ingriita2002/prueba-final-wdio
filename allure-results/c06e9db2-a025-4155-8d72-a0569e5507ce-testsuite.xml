@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683133120513' stop='1683133130283'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1683133120513' status='broken' stop='1683133130282'>
+            <name>Debería buscar apple cinema</name>
+            <title>Debería buscar apple cinema</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.64'/>
+            </parameters>
+            <steps>
+                <step start='1683133120515' status='passed' stop='1683133123740'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0923d1b1-f352-4fb6-aad0-005d2de8b63b-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683133123744' status='passed' stop='1683133123781'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='acd5a83b-4dd2-4ac3-b4e9-47231b4b5d73-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='ca42dd43-0840-4d7f-8edd-101fdb184a81-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683133123789' status='passed' stop='1683133123839'>
+                    <name>POST /session/:sessionId/element/4CD42AFF36AA0E428B59EF5B857EFAD0_element_47/click</name>
+                    <title>POST /session/:sessionId/element/4CD42AFF36AA0E428B59EF5B857EFAD0_element_47/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683133123840' status='passed' stop='1683133123863'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='feb2e843-710e-4c66-af3c-6fe13af0f372-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='31739d0d-437a-486c-9ea8-5a625c4f9006-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683133123866' status='passed' stop='1683133123906'>
+                    <name>POST /session/:sessionId/element/4CD42AFF36AA0E428B59EF5B857EFAD0_element_48/clear</name>
+                    <title>POST /session/:sessionId/element/4CD42AFF36AA0E428B59EF5B857EFAD0_element_48/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683133123912' status='passed' stop='1683133123980'>
+                    <name>POST /session/:sessionId/element/4CD42AFF36AA0E428B59EF5B857EFAD0_element_48/value</name>
+                    <title>POST /session/:sessionId/element/4CD42AFF36AA0E428B59EF5B857EFAD0_element_48/value</title>
+                    <attachments>
+                        <attachment title='Request' source='0986f30f-9f50-4a27-b3bb-d8f02833ac5a-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683133123980' status='passed' stop='1683133125125'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='c18dc1ec-874b-497f-bcb2-dcbfbdd59183-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683133125126' status='passed' stop='1683133125152'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683133130161' status='passed' stop='1683133130280'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9fb0ed1e-912c-4b48-8588-df3daa10f045-attachment.png' type='image/png' size='70791'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Falló</message>
+                <stack-trace>Error: Falló
+                    at C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/opencart.test.js:9:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

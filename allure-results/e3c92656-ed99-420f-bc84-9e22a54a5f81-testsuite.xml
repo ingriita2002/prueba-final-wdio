@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1682394922484' stop='1682394927979'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1682394922485' status='broken' stop='1682394927978'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.138'/>
+            </parameters>
+            <steps>
+                <step start='1682394922487' status='passed' stop='1682394926390'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='202fc742-011e-4a24-a5cc-5d293d582798-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394926392' status='passed' stop='1682394926422'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d491681a-a58b-4b0a-8a27-773e7559a157-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='9b943f9a-86fe-498f-a6e3-b934e39410d8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394926428' status='passed' stop='1682394926473'>
+                    <name>POST /session/:sessionId/element/4d56011a-b8ac-4d5d-aa14-c848db52ae5c/click</name>
+                    <title>POST /session/:sessionId/element/4d56011a-b8ac-4d5d-aa14-c848db52ae5c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682394926474' status='passed' stop='1682394926501'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='90081119-176c-4e49-bdac-cbab3c34ea38-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='6c64c175-2417-41b3-ba86-bf1c60cb41ad-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394926505' status='passed' stop='1682394926543'>
+                    <name>POST /session/:sessionId/element/835832c6-e5e5-4e6d-b1f0-541929077386/clear</name>
+                    <title>POST /session/:sessionId/element/835832c6-e5e5-4e6d-b1f0-541929077386/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682394926550' status='passed' stop='1682394926614'>
+                    <name>POST /session/:sessionId/element/835832c6-e5e5-4e6d-b1f0-541929077386/value</name>
+                    <title>POST /session/:sessionId/element/835832c6-e5e5-4e6d-b1f0-541929077386/value</title>
+                    <attachments>
+                        <attachment title='Request' source='4f94a6cc-dc68-4dee-9e37-5c83820fd1b8-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394926615' status='passed' stop='1682394927812'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='b65607f4-3dae-482b-9af8-aa34a8451311-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394927812' status='passed' stop='1682394927833'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682394927835' status='passed' stop='1682394927861'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7f52b7e2-1cd6-42f4-91f3-37d640122895-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='328892a7-5cd0-438d-9e20-defad3c4d6f3-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394927868' status='passed' stop='1682394927977'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ac70cd03-0a4d-4526-b2d9-09896d8d4c39-attachment.png' type='image/png' size='70791'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>seleccionarArticulo.click is not a function</message>
+                <stack-trace>TypeError: seleccionarArticulo.click is not a function
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/opencart.test.js:11:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,96 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1682391545810' stop='1682391550370'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1682391545811' status='broken' stop='1682391550369'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.138'/>
+            </parameters>
+            <steps>
+                <step start='1682391545813' status='passed' stop='1682391549053'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a8459d0b-7b6c-49a6-af4c-18755101da29-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682391549056' status='passed' stop='1682391549083'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cf05c13d-f859-4b81-ba24-a2143b58309e-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='73c419ee-e4b3-4ed9-9065-deffdb023186-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682391549089' status='passed' stop='1682391549131'>
+                    <name>POST /session/:sessionId/element/6fe793cc-bc4f-4576-a4bb-c5d0ed477285/click</name>
+                    <title>POST /session/:sessionId/element/6fe793cc-bc4f-4576-a4bb-c5d0ed477285/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682391549132' status='passed' stop='1682391549195'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6aece020-45fa-47e4-ab11-1cd8b5974ee3-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='609a4c88-29f1-42e3-b813-93dc662044a7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682391549198' status='passed' stop='1682391549240'>
+                    <name>POST /session/:sessionId/element/8f7d3d8b-3801-4c0a-ab06-c432aba561f3/clear</name>
+                    <title>POST /session/:sessionId/element/8f7d3d8b-3801-4c0a-ab06-c432aba561f3/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682391549247' status='passed' stop='1682391549313'>
+                    <name>POST /session/:sessionId/element/8f7d3d8b-3801-4c0a-ab06-c432aba561f3/value</name>
+                    <title>POST /session/:sessionId/element/8f7d3d8b-3801-4c0a-ab06-c432aba561f3/value</title>
+                    <attachments>
+                        <attachment title='Request' source='3b50b950-41aa-4c1c-a45c-8b738618ddd5-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682391549314' status='passed' stop='1682391550206'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='77f2a4f0-8ddf-4c95-bd33-90f7751d8295-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682391550206' status='passed' stop='1682391550233'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682391550239' status='passed' stop='1682391550368'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8b71c8f0-8720-4957-b7f5-387f34819772-attachment.png' type='image/png' size='70791'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>seleccionarArticulo is not defined</message>
+                <stack-trace>ReferenceError: seleccionarArticulo is not defined
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/opencart.test.js:11:5)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1682394738180' stop='1682394745614'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1682394738181' status='broken' stop='1682394745613'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-112.0.5615.138'/>
+            </parameters>
+            <steps>
+                <step start='1682394738184' status='passed' stop='1682394744497'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f6003f81-4566-423a-a712-0d2beb398f1d-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394744499' status='passed' stop='1682394744528'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4b0f8fc9-fc1b-4fbf-8eb9-6c0d8052d231-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='fc1a8f45-a807-4e4e-8d7e-fbbc2ec1ce50-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394744533' status='passed' stop='1682394744579'>
+                    <name>POST /session/:sessionId/element/e105a910-ca25-4a8f-a405-0e776e3b68a1/click</name>
+                    <title>POST /session/:sessionId/element/e105a910-ca25-4a8f-a405-0e776e3b68a1/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682394744579' status='passed' stop='1682394744605'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b4733ab0-15ea-43e7-a1ab-a3c2f2bc0851-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='2afd8447-4e12-45ac-8bbf-8014f5234706-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394744608' status='passed' stop='1682394744648'>
+                    <name>POST /session/:sessionId/element/ed024ced-4bb3-41d5-afa3-174d519b5837/clear</name>
+                    <title>POST /session/:sessionId/element/ed024ced-4bb3-41d5-afa3-174d519b5837/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682394744655' status='passed' stop='1682394744718'>
+                    <name>POST /session/:sessionId/element/ed024ced-4bb3-41d5-afa3-174d519b5837/value</name>
+                    <title>POST /session/:sessionId/element/ed024ced-4bb3-41d5-afa3-174d519b5837/value</title>
+                    <attachments>
+                        <attachment title='Request' source='df8afa22-c44f-4dbf-8995-10dabdc5c4a5-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394744719' status='passed' stop='1682394745441'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='433f0166-be9b-49d3-acfa-bb0cdf119da6-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394745441' status='passed' stop='1682394745466'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1682394745467' status='passed' stop='1682394745493'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='033293a6-817d-4bd5-bfd9-d9bb9cb2c3d1-attachment.json' type='application/json' size='52'/>
+                        <attachment title='Response' source='bd527a8a-06dc-4815-9416-984c10dc0fb2-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1682394745502' status='passed' stop='1682394745611'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='64476bb6-0661-4b52-b07f-f85f62753e94-attachment.png' type='image/png' size='70791'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:253:38
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/opencart.test.js:10:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683134472295' stop='1683134480411'>
+    <name>OpenCart</name>
+    <title>OpenCart</title>
+    <test-cases>
+        <test-case start='1683134472295' status='broken' stop='1683134480411'>
+            <name>Debería buscar apple cinema</name>
+            <title>Debería buscar apple cinema</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.64'/>
+            </parameters>
+            <steps>
+                <step start='1683134472295' status='passed' stop='1683134472328'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='42fa23ee-164a-42f0-add6-11e8a9246c4f-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='7fb649f5-b876-4650-bc4a-dd14bfc22a7f-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683134472331' status='passed' stop='1683134475184'>
+                    <name>POST /session/:sessionId/element/CC5274CA6EAB03A0E025417D1FC0C62E_element_60/click</name>
+                    <title>POST /session/:sessionId/element/CC5274CA6EAB03A0E025417D1FC0C62E_element_60/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683134475185' status='passed' stop='1683134475215'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='540240a0-ff87-41a9-abc2-c6f18c231ac4-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='d35904d6-c10a-4b83-a5b9-84740b01bf46-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683134475218' status='passed' stop='1683134475242'>
+                    <name>POST /session/:sessionId/element/8A04C3F63B0DAF14EE741D3046FCF72B_element_76/elements</name>
+                    <title>POST /session/:sessionId/element/8A04C3F63B0DAF14EE741D3046FCF72B_element_76/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2bb163e4-4eb2-459c-9b85-118a8d7fde82-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='24fa9877-9c33-4a5e-b2d4-2c64a5c60454-attachment.json' type='application/json' size='492'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683134475242' status='passed' stop='1683134475278'>
+                    <name>POST /session/:sessionId/element/8A04C3F63B0DAF14EE741D3046FCF72B_element_79/click</name>
+                    <title>POST /session/:sessionId/element/8A04C3F63B0DAF14EE741D3046FCF72B_element_79/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683134480289' status='passed' stop='1683134480410'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8e25cbe0-52ac-45fb-a3a7-e0832a6406c4-attachment.png' type='image/png' size='116192'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Falló</message>
+                <stack-trace>Error: Falló
+                    at C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/opencart.test.js:28:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
