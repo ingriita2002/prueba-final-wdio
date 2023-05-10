@@ -1,0 +1,69 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683700881032' stop='1683700882544'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1683700881032' status='broken' stop='1683700882544'>
+            <name>Debería cambiar el idioma de la página</name>
+            <title>Debería cambiar el idioma de la página</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1683700881033' status='passed' stop='1683700881601'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='53a93879-3478-40b5-ae0d-7f348e0b17f7-attachment.json' type='application/json' size='75'/>
+                        <attachment title='Response' source='2f84a6f9-1c51-470d-880f-cf6af80d7343-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps>
+                        <step start='1683700881036' status='passed' stop='1683700881586'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='7f97d83d-edd5-40ce-8aab-562290672351-attachment.json' type='application/json' size='48'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1683700881603' status='passed' stop='1683700881648'>
+                    <name>POST /session/:sessionId/element/63C78C70C898185711B283D976150DBB_element_83/elements</name>
+                    <title>POST /session/:sessionId/element/63C78C70C898185711B283D976150DBB_element_83/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f0dcc8df-03d0-4e0c-a927-b6714b59d20d-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='5450c278-d48c-4545-8fd2-ee5b3290a52a-attachment.json' type='application/json' size='297'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1683700881648' status='passed' stop='1683700882222'>
+                    <name>POST /session/:sessionId/element/63C78C70C898185711B283D976150DBB_element_100/click</name>
+                    <title>POST /session/:sessionId/element/63C78C70C898185711B283D976150DBB_element_100/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683700882228' status='passed' stop='1683700882543'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7d73b6a6-7fc7-45c8-af0a-6210ea915a68-attachment.png' type='image/png' size='522962'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>title is not defined</message>
+                <stack-trace>ReferenceError: title is not defined
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/madisonisland.test.js:87:5)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

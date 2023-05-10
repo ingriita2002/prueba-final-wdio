@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683701776511' stop='1683701777942'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1683701776511' status='broken' stop='1683701777942'>
+            <name>Debería cambiar el idioma de la página</name>
+            <title>Debería cambiar el idioma de la página</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1683701776512' status='broken' stop='1683701777942'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4057106b-52f3-4e7f-8f4f-cc30b5298c5b-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps>
+                        <step start='1683701776514' status='passed' stop='1683701776546'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='04bfc6da-3fec-49d3-b7c0-af634c23c2e1-attachment.json' type='application/json' size='48'/>
+                                <attachment title='Response' source='83d4694c-6287-4094-851a-5896a0df5b3a-attachment.json' type='application/json' size='90'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1683701776548' status='passed' stop='1683701776968'>
+                            <name>POST /session/:sessionId/element/3AA4D73EB413E78D76BC553D4C3599A7_element_68/elements</name>
+                            <title>POST /session/:sessionId/element/3AA4D73EB413E78D76BC553D4C3599A7_element_68/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='5107a341-0386-4f09-87c2-9b0f414cb193-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1683701776976' status='passed' stop='1683701777016'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='a7503ea1-db2a-46f4-96c2-76a71743ee97-attachment.json' type='application/json' size='69'/>
+                                <attachment title='Response' source='2ccbc7e2-eb90-40b4-aea0-e0819d7bc936-attachment.json' type='application/json' size='90'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1683701777019' status='broken' stop='1683701777942'>
+                            <name>POST /session/:sessionId/element/3AA4D73EB413E78D76BC553D4C3599A7_element_68/elements</name>
+                            <title>POST /session/:sessionId/element/3AA4D73EB413E78D76BC553D4C3599A7_element_68/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='cd5cc7c8-d007-447a-902d-02ba232ab37c-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps>
+                                <step start='1683701777042' status='passed' stop='1683701777068'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='3471e5ee-f53a-445b-ad2d-56c19a573aa0-attachment.json' type='application/json' size='69'/>
+                                        <attachment title='Response' source='877d655f-d986-4d50-9ad8-cd97318d424d-attachment.json' type='application/json' size='90'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1683701777069' status='passed' stop='1683701777095'>
+                                    <name>POST /session/:sessionId/element/A4D4E2A840B453F29A74A4CBF77A6F89_element_98/elements</name>
+                                    <title>POST /session/:sessionId/element/A4D4E2A840B453F29A74A4CBF77A6F89_element_98/elements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='fc774502-d2cb-4305-b21e-38c59b447453-attachment.json' type='application/json' size='50'/>
+                                        <attachment title='Response' source='cd2943f3-a033-4f0b-a33c-eab423bb8282-attachment.json' type='application/json' size='298'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1683701777096' status='passed' stop='1683701777578'>
+                                    <name>POST /session/:sessionId/element/A4D4E2A840B453F29A74A4CBF77A6F89_element_101/click</name>
+                                    <title>POST /session/:sessionId/element/A4D4E2A840B453F29A74A4CBF77A6F89_element_101/click</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                                <step start='1683701777578' status='broken' stop='1683701777942'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='a9d84433-910d-4ef9-aef8-41841a142df9-attachment.json' type='application/json' size='59'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1683701777681' status='passed' stop='1683701777941'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments>
+                                                <attachment title='Screenshot' source='c730b4ec-da00-4c31-8cd1-d0396147b54b-attachment.png' type='image/png' size='522962'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector "option[=French]" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "option[=French]" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/madisonisland.test.js:87:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
