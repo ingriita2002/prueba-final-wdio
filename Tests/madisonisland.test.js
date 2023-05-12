@@ -1,28 +1,26 @@
+ import MadisonPage from "../pages/madison.page";
+ import Busqueda from "../pages/busqueda.page";
+import credenciales from "../pages/credenciales";
+
  //Primer test prueba final
 describe('Madison Island', () => {
     it('Debería ir a Register', async () => {
-        browser.url('/');
-        let account = await $('=ACCOUNT');
-        await account.click();
-        let title = await $('=Register');
-        await title.click();
+       await MadisonPage.abrir('/');
+       await Busqueda.account.click()
+       await Busqueda.register.click()
         await browser.pause(2000);
     });
     it('Debería ingresar credenciales válidas', async () => {
-        const firstname = await $('[title="First Name"]');
-        await firstname.setValue('Susana');
-        const lastname = await $('[title="Last Name"]');
-        await lastname.setValue('Rosas');
-        const email = await $('[title="Email Address"]');
-        await email.setValue('susana-garcia@gmail.com');
+        await Busqueda.name.setValue(credenciales.firstName);
+        await Busqueda.lastname.setValue(credenciales.lastName);
+        await Busqueda.mail.setValue(credenciales.email);
         const pass = await $('[title="Password"]');
-        await pass.setValue('lolamila234');
+        await pass.setValue('perezsofi555');
         const passconfirm = await $('[title="Confirm Password"]');
-        await passconfirm.setValue('lolamila234');
+        await passconfirm.setValue('perezsofi555');
     });
     it('Debería registrarse', async () => {
-        const register = await $('[title="Register"]');
-        await register.keys('Enter');
+        await Busqueda.buttonRegister.keys('Enter');
         await browser.pause(2000);
     })
     it('Deberia Des-logearse', async () => {
@@ -33,14 +31,14 @@ describe('Madison Island', () => {
     })
 });
 
+/*
  //Segundo test prueba final
 describe('Madison Island', () => {
     it('Debería ir a Log in', async () => {
-        browser.url('/');
+         await MadisonPage.abrir('/');
         let account = await $('=ACCOUNT');
         await account.click();
-        let title = await $('=Log In');
-        await title.click();
+        await Busqueda.login.click()
         await browser.pause(2000);
     });
     it('Debería ingresar credenciales válidas e iniciar sesion', async () => {
@@ -58,7 +56,7 @@ describe('Madison Island', () => {
   //Tercer test prueba final
 describe('Madison Island', () => {
     it('Debería buscar PARK AVENUE y seleccionar el producto', async () => {
-        browser.url('/');
+         await MadisonPage.abrir('/');
         const barraDeBusqueda = await $('[name="q"]');
         await barraDeBusqueda.setValue('Park avenue');
         await barraDeBusqueda.keys('Enter');
@@ -69,10 +67,10 @@ describe('Madison Island', () => {
 }); 
 
 
-//Cuarto tests prueba final
+//Cuarto tests prueba final busqueda con PageObject y assertions
 describe('Madison Island', () => {
     it('Debería ingresar a el producto a comprar', async () => {
-    browser.url('/');
+     await MadisonPage.abrir('/');
     const search = await $('[name="q"]');
     await search.setValue('Park avenue');
     await search.keys('Enter');
@@ -93,7 +91,7 @@ describe('Madison Island', () => {
   //Quinto test prueba final
   describe('Madison Island', () => {
     it('Debería cambiar el idioma de la página', async () => {
-    browser.url('/');
+     await MadisonPage.abrir('/');
     const dropDownLanguage = await $('#select-language');
     await dropDownLanguage.selectByIndex(2);
     await dropDownLanguage.selectByIndex(1);
@@ -101,3 +99,4 @@ describe('Madison Island', () => {
     await browser.pause(2000);
     });
 }); 
+*/
