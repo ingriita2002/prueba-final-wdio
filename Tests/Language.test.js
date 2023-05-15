@@ -9,7 +9,5 @@ describe('Madison Island', () => {
         await LanguagePage.German;
         await LanguagePage.French;
         await LanguagePage.English;
-
-        await browser.pause(2000);
     })
 });
