@@ -1,0 +1,114 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684120879304' stop='1684120881161'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684120879304' status='passed' stop='1684120880672'>
+            <name>Deberia ingresar a la pagina Madison Island</name>
+            <title>Deberia ingresar a la pagina Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1684120879360' status='passed' stop='1684120880671'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7141883a-6671-4b80-88ea-26ca40c6324b-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684120880672' status='broken' stop='1684120881160'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1684120880674' status='passed' stop='1684120880699'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='35e53965-1f8a-44dd-ac2b-9437d0c81b45-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='7a37d277-d127-4e56-8618-448133cfb466-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684120880707' status='passed' stop='1684120880728'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='0078c3c6-7dd6-4834-b43b-30cc7526af59-attachment.json' type='application/json' size='8350'/>
+                        <attachment title='Response' source='51f7f9f7-bf67-472d-a7e7-33d29963b63c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684120880729' status='passed' stop='1684120880754'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='cda86078-3a34-4046-89d9-41f07e6071a8-attachment.json' type='application/json' size='5661'/>
+                        <attachment title='Response' source='822894f6-868e-4a4c-8648-4671b98db878-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684120880755' status='passed' stop='1684120880821'>
+                    <name>POST /session/:sessionId/element/3BCE7EE3E99E447423ED9B1B82581D38_element_6/click</name>
+                    <title>POST /session/:sessionId/element/3BCE7EE3E99E447423ED9B1B82581D38_element_6/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684120880822' status='passed' stop='1684120880844'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8eadd7a9-a8eb-4fe7-8d83-0ca78bda685e-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='bc765528-38b0-4515-9056-873217ba71aa-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684120880847' status='passed' stop='1684120880888'>
+                    <name>POST /session/:sessionId/element/3BCE7EE3E99E447423ED9B1B82581D38_element_6/elements</name>
+                    <title>POST /session/:sessionId/element/3BCE7EE3E99E447423ED9B1B82581D38_element_6/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ab3587c8-ea0a-49f5-afb9-57b6b6a1fb5a-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='53ce44be-de43-4110-a754-43795c669194-attachment.json' type='application/json' size='296'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684120880894' status='passed' stop='1684120881159'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1af2c61f-03ed-49eb-a7b3-477498b4848c-attachment.png' type='image/png' size='522780'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Option with index "3" not found. Select element only contains 3 option elements</message>
+                <stack-trace>Error: Option with index "3" not found. Select element only contains 3 option elements
+                    at Element.selectByIndex (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\element\selectByIndex.js:48:15)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Element.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:9:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

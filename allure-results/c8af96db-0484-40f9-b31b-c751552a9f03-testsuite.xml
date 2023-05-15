@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684119136289' stop='1684119140753'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684119136290' status='passed' stop='1684119140289'>
+            <name>Deberia ingresar a la pagina Madison Island</name>
+            <title>Deberia ingresar a la pagina Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1684119136420' status='passed' stop='1684119140287'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ea791203-6d58-49d7-b2e2-55aca11339d6-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684119140292' status='broken' stop='1684119140752'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1684119140301' status='passed' stop='1684119140346'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='21cd58e1-0d3e-4123-95cc-669757d15251-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='ff3f8481-3201-47e8-b01b-2f8e1ad2c69e-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684119140352' status='passed' stop='1684119140381'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='39a6bff5-6b20-4df9-8981-8ccc9af6c8bc-attachment.json' type='application/json' size='8352'/>
+                        <attachment title='Response' source='82f57d77-0015-4045-96a9-6f07ecba3bd7-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684119140381' status='passed' stop='1684119140403'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='caed25cf-7fb4-40e1-a1eb-fa19a7f4e1d3-attachment.json' type='application/json' size='5663'/>
+                        <attachment title='Response' source='0b8baf7c-01a9-4f1c-adbf-d9f1ab87e847-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684119140404' status='passed' stop='1684119140466'>
+                    <name>POST /session/:sessionId/element/FF990CD017817015EDC6B9B312FC5B36_element_25/click</name>
+                    <title>POST /session/:sessionId/element/FF990CD017817015EDC6B9B312FC5B36_element_25/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684119140468' status='passed' stop='1684119140751'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9f44a202-11a7-4a08-aa79-e3fdea87a0fa-attachment.png' type='image/png' size='522780'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_language.default.Pause is not a function</message>
+                <stack-trace>TypeError: _language.default.Pause is not a function
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:10:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

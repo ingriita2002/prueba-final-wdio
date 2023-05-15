@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684119807510' stop='1684119811253'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684119807511' status='passed' stop='1684119810700'>
+            <name>Deberia ingresar a la pagina Madison Island</name>
+            <title>Deberia ingresar a la pagina Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1684119807576' status='passed' stop='1684119810699'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f8d6b967-1439-4a26-980a-ac300f06e27f-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684119810700' status='broken' stop='1684119811252'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1684119810703' status='passed' stop='1684119810757'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b8252a8e-a72d-49d7-88b6-56cc00bfab02-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='775e28d7-95f8-45e4-a705-4f0776bce5a9-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684119810767' status='passed' stop='1684119810801'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='451ba5fe-7314-4a9d-908c-7e540f7b8c2f-attachment.json' type='application/json' size='8350'/>
+                        <attachment title='Response' source='ab27a2a0-fc78-4c6b-9d4d-4df3e9fbac0b-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684119810801' status='passed' stop='1684119810821'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='140a1724-6aaf-42d8-abb1-43629826047e-attachment.json' type='application/json' size='5661'/>
+                        <attachment title='Response' source='34a06f27-a951-4355-ab2c-3a07476d3a02-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684119810821' status='passed' stop='1684119810885'>
+                    <name>POST /session/:sessionId/element/38B86413EEFDB372733EECE961579401_element_6/click</name>
+                    <title>POST /session/:sessionId/element/38B86413EEFDB372733EECE961579401_element_6/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684119810886' status='broken' stop='1684119811251'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='53a0d343-3da2-48e3-9d67-788174de6064-attachment.json' type='application/json' size='145'/>
+                    </attachments>
+                    <steps>
+                        <step start='1684119810988' status='passed' stop='1684119811250'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='d169067c-16e8-4866-9d1f-7d54612dbf49-attachment.png' type='image/png' size='522780'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector ".//value[normalize-space() = ""http://magento-demo.lexiconn.com/?___store=french&amp;___from_store=german""]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector ".//value[normalize-space() = ""http://magento-demo.lexiconn.com/?___store=french&amp;___from_store=german""]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at LanguagePage.clickElement (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\pages\/base.page.js:20:8)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

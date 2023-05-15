@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684120753525' stop='1684120756036'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684120753526' status='passed' stop='1684120755507'>
+            <name>Deberia ingresar a la pagina Madison Island</name>
+            <title>Deberia ingresar a la pagina Madison Island</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1684120753581' status='passed' stop='1684120755506'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e6fa6971-ef0c-48c2-bdc4-1e5ef7644879-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1684120755507' status='broken' stop='1684120756035'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.93'/>
+            </parameters>
+            <steps>
+                <step start='1684120755511' status='passed' stop='1684120755544'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='093f1cd0-1fd0-4f92-9951-3f85fc86e477-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='cbde449e-9459-4780-9d63-e959ce4ca1c8-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684120755550' status='passed' stop='1684120755615'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='b4ed5831-53b7-4c17-9dc3-6a59cd547404-attachment.json' type='application/json' size='8352'/>
+                        <attachment title='Response' source='237d46e0-40d5-4380-b85c-6a62ea9dcc43-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684120755615' status='passed' stop='1684120755642'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='55758a96-b2dc-46dc-b2c8-2737fbf72492-attachment.json' type='application/json' size='5663'/>
+                        <attachment title='Response' source='7e859b6c-0fcd-4133-af2e-da5fb3d1fbaa-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684120755642' status='passed' stop='1684120755704'>
+                    <name>POST /session/:sessionId/element/456BE34A889F512E9BD47B61091F197A_element_24/click</name>
+                    <title>POST /session/:sessionId/element/456BE34A889F512E9BD47B61091F197A_element_24/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684120755707' status='broken' stop='1684120756035'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1684120755710' status='passed' stop='1684120755996'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='8d598475-04de-4af0-a8d3-b8cb6e92c67b-attachment.json' type='application/json' size='60'/>
+                                <attachment title='Response' source='fa34ddd5-314b-4928-9714-c30018845e07-attachment.json' type='application/json' size='90'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1684120755999' status='passed' stop='1684120756034'>
+                            <name>POST /session/:sessionId/element/456BE34A889F512E9BD47B61091F197A_element_24/elements</name>
+                            <title>POST /session/:sessionId/element/456BE34A889F512E9BD47B61091F197A_element_24/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='19cbcb1e-ff70-41b2-a838-eb1cdf414a22-attachment.json' type='application/json' size='50'/>
+                                <attachment title='Screenshot' source='43d42a72-c9c8-4626-892f-a79c52dfa7d5-attachment.png' type='image/png' size='522780'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element.waitForClickable is not a function</message>
+                <stack-trace>TypeError: element.waitForClickable is not a function
+                    at LanguagePage.clickElement (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\pages\/base.page.js:20:22)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:9:28)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
