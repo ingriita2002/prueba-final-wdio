@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684476205147' stop='1684476216260'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684476205148' status='broken' stop='1684476216259'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684476205150' status='passed' stop='1684476213911'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1a2c9ebb-3a7b-459e-ad6c-a4557b0d1e30-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684476213925' status='passed' stop='1684476213925'>
+                    <name>Se cliquea el desplegable Language y luego el Idioma alemán</name>
+                    <title>Se cliquea el desplegable Language y luego el Idioma alemán</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476213927' status='passed' stop='1684476213957'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='42cbb579-cd7a-473e-9f7d-773f3fa9895c-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='211d3580-6094-4f23-8073-788d50fa46e6-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684476213964' status='passed' stop='1684476214037'>
+                    <name>POST /session/:sessionId/element/B3CB4791875559FD38437E4F1F16EA50_element_55/click</name>
+                    <title>POST /session/:sessionId/element/B3CB4791875559FD38437E4F1F16EA50_element_55/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476214037' status='passed' stop='1684476214037'>
+                    <name>Selects German</name>
+                    <title>Selects German</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476214038' status='passed' stop='1684476214065'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a7cf73d1-bac5-4213-aac8-03b687fb1181-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='021d548e-3b69-47e7-b81f-535b2fcec6fc-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684476214069' status='passed' stop='1684476215971'>
+                    <name>POST /session/:sessionId/element/B3CB4791875559FD38437E4F1F16EA50_element_60/click</name>
+                    <title>POST /session/:sessionId/element/B3CB4791875559FD38437E4F1F16EA50_element_60/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476215984' status='passed' stop='1684476216257'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f7606f87-1d0c-4b1b-9591-545de060e243-attachment.png' type='image/png' size='522962'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Invalid Chai property: toExist. Did you mean "exist"?</message>
+                <stack-trace>Error: Invalid Chai property: toExist. Did you mean "exist"?
+                    at Object.proxyGetter [as get] (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\chai\lib\chai\utils\proxify.js:75:17)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:15:50)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

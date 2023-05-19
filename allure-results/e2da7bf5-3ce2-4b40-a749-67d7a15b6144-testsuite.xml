@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684471224765' stop='1684471227150'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684471224765' status='broken' stop='1684471227149'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684471224767' status='passed' stop='1684471226099'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='316832d5-f21d-48e0-8246-7fd9b9df4c0e-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684471226113' status='passed' stop='1684471226113'>
+                    <name>Se cliquea el desplegable Language y luego el Idioma alemán</name>
+                    <title>Se cliquea el desplegable Language y luego el Idioma alemán</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684471226115' status='passed' stop='1684471226140'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='472908d6-ca23-4508-a396-a73fb960047c-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='7c95588c-65a4-49e9-9ec2-d8f7c045a636-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684471226146' status='passed' stop='1684471226209'>
+                    <name>POST /session/:sessionId/element/4612DC6D4EB933AC1F3CCBA9E8F1E646_element_6/click</name>
+                    <title>POST /session/:sessionId/element/4612DC6D4EB933AC1F3CCBA9E8F1E646_element_6/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684471226211' status='passed' stop='1684471226231'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b3382464-0acd-4a6e-a99c-19c1dac1e683-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='c872fcb3-4c6a-4b47-8f75-0c4099d4175b-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684471226233' status='passed' stop='1684471226257'>
+                    <name>POST /session/:sessionId/element/4612DC6D4EB933AC1F3CCBA9E8F1E646_element_6/element</name>
+                    <title>POST /session/:sessionId/element/4612DC6D4EB933AC1F3CCBA9E8F1E646_element_6/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1f24d1c7-f6a9-48a0-b639-6559c30be299-attachment.json' type='application/json' size='198'/>
+                        <attachment title='Response' source='e0da85fd-8208-4a0e-8769-b3702a931313-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684471226257' status='passed' stop='1684471226859'>
+                    <name>POST /session/:sessionId/element/4612DC6D4EB933AC1F3CCBA9E8F1E646_element_42/click</name>
+                    <title>POST /session/:sessionId/element/4612DC6D4EB933AC1F3CCBA9E8F1E646_element_42/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684471226866' status='passed' stop='1684471227148'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c2699bab-f042-4111-907a-85d38c567ea9-attachment.png' type='image/png' size='522962'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>German is not defined</message>
+                <stack-trace>ReferenceError: German is not defined
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:15:18)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

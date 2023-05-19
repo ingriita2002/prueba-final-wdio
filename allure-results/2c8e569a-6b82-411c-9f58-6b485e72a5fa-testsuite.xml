@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684476268444' stop='1684476280827'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684476268444' status='failed' stop='1684476280826'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684476268446' status='passed' stop='1684476278276'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='adddc3f5-49f6-4fdf-ac1f-059758ae1ed5-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684476278291' status='passed' stop='1684476278291'>
+                    <name>Se cliquea el desplegable Language y luego el Idioma alemán</name>
+                    <title>Se cliquea el desplegable Language y luego el Idioma alemán</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476278292' status='passed' stop='1684476278318'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='97f59e88-8f58-4dec-b8a8-a289dfedb226-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='62204579-77e5-47fb-b7ee-43647c651a1f-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684476278325' status='passed' stop='1684476278389'>
+                    <name>POST /session/:sessionId/element/2BD2B57F2F57FEB8033EE9FC25D77B06_element_34/click</name>
+                    <title>POST /session/:sessionId/element/2BD2B57F2F57FEB8033EE9FC25D77B06_element_34/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476278390' status='passed' stop='1684476278390'>
+                    <name>Selects German</name>
+                    <title>Selects German</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476278390' status='passed' stop='1684476278413'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1be763e3-6dec-4a96-adc0-d786b1e9a4db-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='c2069147-a0ab-49cc-8096-3888ba1dcf95-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684476278417' status='passed' stop='1684476280525'>
+                    <name>POST /session/:sessionId/element/2BD2B57F2F57FEB8033EE9FC25D77B06_element_45/click</name>
+                    <title>POST /session/:sessionId/element/2BD2B57F2F57FEB8033EE9FC25D77B06_element_45/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476280537' status='passed' stop='1684476280825'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='89c5a3b2-99c3-4778-adbf-4c4c2b83e36b-attachment.png' type='image/png' size='534386'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>(0 , _chai.expect)(...).exist is not a function</message>
+                <stack-trace>TypeError: (0 , _chai.expect)(...).exist is not a function
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:15:51)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

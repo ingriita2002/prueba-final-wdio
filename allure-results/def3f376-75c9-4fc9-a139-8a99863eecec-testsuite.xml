@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684477262113' stop='1684477264443'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684477262114' status='failed' stop='1684477264442'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684477262116' status='passed' stop='1684477263403'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6e636186-2c6d-4213-a957-069b5de00d17-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684477263417' status='passed' stop='1684477263417'>
+                    <name>Se cliquea el desplegable Language y luego el Idioma alemán</name>
+                    <title>Se cliquea el desplegable Language y luego el Idioma alemán</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684477263419' status='passed' stop='1684477263468'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2826d1cd-7452-4fb5-a751-ac602e6fd29e-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='038be04a-bb19-418b-a6c0-0497e9f597dc-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684477263475' status='passed' stop='1684477263547'>
+                    <name>POST /session/:sessionId/element/805C0CA851EA54D3DA720564AC7CC992_element_6/click</name>
+                    <title>POST /session/:sessionId/element/805C0CA851EA54D3DA720564AC7CC992_element_6/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684477263547' status='passed' stop='1684477263547'>
+                    <name>Selects German</name>
+                    <title>Selects German</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684477263548' status='passed' stop='1684477263572'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f9a7d518-931e-4ea5-8ec0-48e6d1f5a002-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='9a7cdd03-51f4-448d-b0d2-5659306c40c6-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684477263574' status='passed' stop='1684477264102'>
+                    <name>POST /session/:sessionId/element/805C0CA851EA54D3DA720564AC7CC992_element_42/click</name>
+                    <title>POST /session/:sessionId/element/805C0CA851EA54D3DA720564AC7CC992_element_42/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684477264103' status='passed' stop='1684477264143'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='02353f72-4eea-4cd9-b793-5baa6d46619a-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='3f1493e3-029c-45c5-9ed5-15e465364fd7-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684477264145' status='passed' stop='1684477264172'>
+                    <name>GET /session/:sessionId/element/AF24F41F085FF2E30E98F0ECD330808D_element_72/text</name>
+                    <title>GET /session/:sessionId/element/AF24F41F085FF2E30E98F0ECD330808D_element_72/text</title>
+                    <attachments>
+                        <attachment title='Response' source='23188fe9-8400-4a8b-9ec5-5fef5a2bafde-attachment.json' type='application/json' size='8'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684477264179' status='passed' stop='1684477264438'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='038ebeeb-3011-45b1-bec4-41240fabe941-attachment.png' type='image/png' size='522962'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'German' to equal 'French'      
+                      actual expected
+                      
+                      'GermanFrench'
+                      </message>
+                <stack-trace>AssertionError: expected 'German' to equal 'French'
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:15:54)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

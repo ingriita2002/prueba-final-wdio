@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684473318237' stop='1684473321219'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684473318237' status='broken' stop='1684473321217'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684473318239' status='passed' stop='1684473320722'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='844b0f06-2f2d-47e5-afea-16767a04ce31-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684473320736' status='passed' stop='1684473320736'>
+                    <name>Se cliquea el desplegable Language y luego el Idioma alemán</name>
+                    <title>Se cliquea el desplegable Language y luego el Idioma alemán</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684473320738' status='passed' stop='1684473320784'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='53b54e34-7a17-4915-80e6-075a4889b0d4-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='ba04a8a6-77cb-418b-8dc1-88ef9ceb75f7-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684473320792' status='passed' stop='1684473320882'>
+                    <name>POST /session/:sessionId/element/57CD60380B747A8C3F91B6D16BF904B3_element_7/click</name>
+                    <title>POST /session/:sessionId/element/57CD60380B747A8C3F91B6D16BF904B3_element_7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684473320883' status='passed' stop='1684473321216'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='84e52a44-5d6c-421e-9420-778070dcd5e5-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Screenshot' source='295faee3-3aae-4979-8ff7-c4609cd6ab20-attachment.png' type='image/png' size='522780'/>
+                    </attachments>
+                    <steps>
+                        <step start='1684473320887' status='passed' stop='1684473320911'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='b29dc613-669a-41c4-86d9-ce2825e69372-attachment.json' type='application/json' size='60'/>
+                                <attachment title='Response' source='ab176dc2-a8a2-4804-84d3-4548b70583dc-attachment.json' type='application/json' size='89'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1684473320918' status='passed' stop='1684473320922'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Response' source='1c98a35d-b79c-4ef4-bb12-1745c5a3ac61-attachment.json' type='application/json' size='89'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1684473320925' status='passed' stop='1684473321200'>
+                            <name>GET /session/:sessionId/element/57CD60380B747A8C3F91B6D16BF904B3_element_7/text</name>
+                            <title>GET /session/:sessionId/element/57CD60380B747A8C3F91B6D16BF904B3_element_7/text</title>
+                            <attachments>
+                                <attachment title='Response' source='8f7a00be-b48b-4670-b990-71188fce0141-attachment.json' type='application/json' size='95'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>text.trim is not a function</message>
+                <stack-trace>TypeError: text.trim is not a function
+                    at Element.selectByVisibleText (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\element\selectByVisibleText.js:41:10)
+                    at Element.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:14:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

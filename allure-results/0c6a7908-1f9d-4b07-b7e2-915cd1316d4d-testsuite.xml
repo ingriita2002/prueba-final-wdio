@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684476655852' stop='1684476676522'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684476655852' status='broken' stop='1684476676521'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684476655854' status='passed' stop='1684476661200'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0828dcc9-4780-4f19-8588-ce38e9cd132e-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684476661229' status='passed' stop='1684476661229'>
+                    <name>Se cliquea el desplegable Language y luego el Idioma alemán</name>
+                    <title>Se cliquea el desplegable Language y luego el Idioma alemán</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476661233' status='passed' stop='1684476661272'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='767fd981-f9e2-4a10-b77e-80ba67c453c9-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='74cd2e3b-c4b5-4040-9040-06abe9fc21cd-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684476661279' status='passed' stop='1684476661347'>
+                    <name>POST /session/:sessionId/element/55C05B73FE84170EAD3E703B801A8877_element_36/click</name>
+                    <title>POST /session/:sessionId/element/55C05B73FE84170EAD3E703B801A8877_element_36/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476661347' status='passed' stop='1684476661347'>
+                    <name>Selects German</name>
+                    <title>Selects German</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476661348' status='passed' stop='1684476661374'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f4f99317-0dca-4802-9022-00e54fb7c5bd-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='65229634-ac29-42d8-aa4f-c9109f29c84a-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684476661378' status='passed' stop='1684476676182'>
+                    <name>POST /session/:sessionId/element/55C05B73FE84170EAD3E703B801A8877_element_56/click</name>
+                    <title>POST /session/:sessionId/element/55C05B73FE84170EAD3E703B801A8877_element_56/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684476676191' status='passed' stop='1684476676520'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3f3d03f5-f863-4b8d-bd35-234359c85cde-attachment.png' type='image/png' size='522962'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>languageDropdown is not defined</message>
+                <stack-trace>ReferenceError: languageDropdown is not defined
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:15:12)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

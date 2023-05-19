@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684475513580' stop='1684475521112'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684475513580' status='broken' stop='1684475521110'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684475513582' status='passed' stop='1684475520685'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ca5ff0b5-9d1e-4161-9c27-629d4d93091f-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684475520705' status='passed' stop='1684475520705'>
+                    <name>Se cliquea el desplegable Language y luego el Idioma alemán</name>
+                    <title>Se cliquea el desplegable Language y luego el Idioma alemán</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684475520708' status='passed' stop='1684475520739'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2a757ad1-4e6c-4a4e-870d-2008e857f4df-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='32b89f3d-3c92-405a-b2c9-53530414f8de-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684475520746' status='passed' stop='1684475520821'>
+                    <name>POST /session/:sessionId/element/B6AE6F181A15ADE03E1EFEE205F757D4_element_29/click</name>
+                    <title>POST /session/:sessionId/element/B6AE6F181A15ADE03E1EFEE205F757D4_element_29/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684475520823' status='passed' stop='1684475521109'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='236892d8-310f-400c-b39e-283576164bd9-attachment.png' type='image/png' size='522780'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>addStep is not defined</message>
+                <stack-trace>ReferenceError: addStep is not defined
+                    at HomePage.languageSelector (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\pages\/homePage.js:13:5)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Language.test.js:14:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

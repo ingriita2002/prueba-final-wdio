@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684477500914' stop='1684477503235'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684477500914' status='passed' stop='1684477503234'>
+            <name>Debería cambiar el idioma de la pagina</name>
+            <title>Debería cambiar el idioma de la pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684477500916' status='passed' stop='1684477502251'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2d86df48-1e9f-47b3-b4fd-aa0d3fb4a16e-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684477502263' status='passed' stop='1684477502263'>
+                    <name>Se cliquea el desplegable Language y luego el Idioma alemán</name>
+                    <title>Se cliquea el desplegable Language y luego el Idioma alemán</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684477502264' status='passed' stop='1684477502301'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a02432fb-7c67-4b95-b51b-b7d65b99f5cd-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='ec3384b2-a875-438b-acf9-4874046d8bff-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684477502307' status='passed' stop='1684477502405'>
+                    <name>POST /session/:sessionId/element/870E986E84A7C8FDA253214CF34A5BAD_element_6/click</name>
+                    <title>POST /session/:sessionId/element/870E986E84A7C8FDA253214CF34A5BAD_element_6/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684477502406' status='passed' stop='1684477502406'>
+                    <name>Selects German</name>
+                    <title>Selects German</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684477502406' status='passed' stop='1684477502433'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ada844d6-cdaf-40f3-bcf2-3e0cb78c0cd7-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='8e29463e-6394-454a-8b26-c6e23c77feb4-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684477502435' status='passed' stop='1684477503151'>
+                    <name>POST /session/:sessionId/element/870E986E84A7C8FDA253214CF34A5BAD_element_42/click</name>
+                    <title>POST /session/:sessionId/element/870E986E84A7C8FDA253214CF34A5BAD_element_42/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684477503151' status='passed' stop='1684477503201'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5800874d-bf5e-4e72-a365-606f2699b5cc-attachment.json' type='application/json' size='74'/>
+                        <attachment title='Response' source='74cd8a05-b18f-4518-8556-cdecce6e4c67-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684477503204' status='passed' stop='1684477503232'>
+                    <name>GET /session/:sessionId/element/6B6C59D622A5E57E18C7F8A9E2D74596_element_72/text</name>
+                    <title>GET /session/:sessionId/element/6B6C59D622A5E57E18C7F8A9E2D74596_element_72/text</title>
+                    <attachments>
+                        <attachment title='Response' source='7cd81956-3f1b-4800-87d8-9fa562c6c932-attachment.json' type='application/json' size='8'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
