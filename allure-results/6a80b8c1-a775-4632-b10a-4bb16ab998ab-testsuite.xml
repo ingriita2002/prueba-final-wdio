@@ -1,0 +1,129 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684735194738' stop='1684735198501'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684735194739' status='broken' stop='1684735198500'>
+            <name>Debería buscar PARK AVENUE y seleccionar el producto</name>
+            <title>Debería buscar PARK AVENUE y seleccionar el producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684735194741' status='passed' stop='1684735195987'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ec40f7a0-59cd-4cf9-95ff-2ac167779db1-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735195997' status='passed' stop='1684735195997'>
+                    <name>Se busca el producto Park Avenue y se cliquea</name>
+                    <title>Se busca el producto Park Avenue y se cliquea</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684735195999' status='passed' stop='1684735196026'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fd64e5d3-501e-453a-913b-38ee7f2e9f97-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='6f8cc073-1f85-4d7a-91f5-b8c796a864b1-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735196032' status='passed' stop='1684735196095'>
+                    <name>POST /session/:sessionId/element/227D570B4C570AE64ED5A28FB8D53AD5_element_6/clear</name>
+                    <title>POST /session/:sessionId/element/227D570B4C570AE64ED5A28FB8D53AD5_element_6/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684735196103' status='passed' stop='1684735196176'>
+                    <name>POST /session/:sessionId/element/227D570B4C570AE64ED5A28FB8D53AD5_element_6/value</name>
+                    <title>POST /session/:sessionId/element/227D570B4C570AE64ED5A28FB8D53AD5_element_6/value</title>
+                    <attachments>
+                        <attachment title='Request' source='561b7c65-a6f5-4f04-8c05-b03414d401c5-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735196176' status='passed' stop='1684735196195'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d9ed3cd3-fb83-409b-b898-6dd41749ce77-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='be6e52fc-0216-45b8-a417-7bb249d22fed-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735196198' status='passed' stop='1684735197032'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='d3aae59d-a720-40c9-b900-82b8d56b7732-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735197033' status='passed' stop='1684735197052'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684735197053' status='passed' stop='1684735197083'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='90242d1c-0e28-41d0-82d7-99f507e8a22d-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='a760e15b-49fc-4c5f-a4fa-42202b6c3319-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735197085' status='passed' stop='1684735198279'>
+                    <name>POST /session/:sessionId/element/968EAF71D28B6D47094729C474AADB6C_element_77/click</name>
+                    <title>POST /session/:sessionId/element/968EAF71D28B6D47094729C474AADB6C_element_77/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684735198280' status='broken' stop='1684735198500'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c012520b-9f83-455d-afa3-4e1ae346dc48-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps>
+                        <step start='1684735198364' status='passed' stop='1684735198499'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='dd12d0d4-3d37-48fa-9891-92ac75a01663-attachment.png' type='image/png' size='168570'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector ".//title[normalize-space() = ""Core Striped Sport Shirt""]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector ".//title[normalize-space() = ""Core Striped Sport Shirt""]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/4_Product.test.js:17:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,154 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684724593763' stop='1684724596431'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684724593763' status='broken' stop='1684724596227'>
+            <name>Debería redirigirse a Register, ingresar los datos del usuario y registrarse</name>
+            <title>Debería redirigirse a Register, ingresar los datos del usuario y registrarse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684724593765' status='passed' stop='1684724595173'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='610242f8-253d-43e9-8971-e8a3243c7f4b-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684724595186' status='passed' stop='1684724595186'>
+                    <name>Se cliquea el desplegable Account y luego la opción Register</name>
+                    <title>Se cliquea el desplegable Account y luego la opción Register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684724595187' status='passed' stop='1684724595222'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0705925c-0382-49bd-8f0a-339051a98b00-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='06e6c6d6-e833-4ea4-8069-5edbfb2d8f5f-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684724595228' status='passed' stop='1684724595327'>
+                    <name>POST /session/:sessionId/element/A0E3FDF263C5282710BAFC84436D69B2_element_7/click</name>
+                    <title>POST /session/:sessionId/element/A0E3FDF263C5282710BAFC84436D69B2_element_7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684724595327' status='passed' stop='1684724595384'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='31678421-b08c-417d-89e1-851f732ae328-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='4c9c29ca-1578-42d6-a559-ce3312a626ca-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684724595386' status='passed' stop='1684724595941'>
+                    <name>POST /session/:sessionId/element/A0E3FDF263C5282710BAFC84436D69B2_element_61/click</name>
+                    <title>POST /session/:sessionId/element/A0E3FDF263C5282710BAFC84436D69B2_element_61/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684724595942' status='passed' stop='1684724595942'>
+                    <name>Se completa el formulario con datos del usuario y se registra</name>
+                    <title>Se completa el formulario con datos del usuario y se registra</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684724595942' status='broken' stop='1684724596226'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='051639bd-1b5e-4659-bbf2-ee02222cf460-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps>
+                        <step start='1684724596031' status='passed' stop='1684724596225'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='2f4d68ad-ba77-4bfb-9e03-c72f458bf102-attachment.png' type='image/png' size='52691'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The selector ".//h1[normalize-space() = ""Create an Account""]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector ".//h1[normalize-space() = ""Create an Account""]" used with strategy "xpath" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Register.test.js:21:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1684724596227' status='broken' stop='1684724596430'>
+            <name>Deberia des-loguearse</name>
+            <title>Deberia des-loguearse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684724596228' status='passed' stop='1684724596228'>
+                    <name>Se desloguea de la pagina</name>
+                    <title>Se desloguea de la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684724596228' status='passed' stop='1684724596263'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5de257f2-175f-4f7f-a400-f2b7d537aebf-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='9712b3de-8b01-46e0-9528-59e6f2685d2f-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684724596267' status='passed' stop='1684724596318'>
+                    <name>POST /session/:sessionId/element/EA58702CC13127843DF8D64613BDFEF4_element_73/click</name>
+                    <title>POST /session/:sessionId/element/EA58702CC13127843DF8D64613BDFEF4_element_73/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684724596319' status='passed' stop='1684724596429'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e468fbfb-6326-425a-a0d8-e676702c8da7-attachment.png' type='image/png' size='56296'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'click')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'click')
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Register.test.js:37:27)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

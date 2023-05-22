@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684715730177' stop='1684715737760'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684715730178' status='broken' stop='1684715737759'>
+            <name>Debería redirigirse a Register, ingresar los datos del usuario y registrarse</name>
+            <title>Debería redirigirse a Register, ingresar los datos del usuario y registrarse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684715730180' status='passed' stop='1684715736297'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='24822767-11be-4ec1-8c41-9f140bba56d0-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684715736361' status='passed' stop='1684715736361'>
+                    <name>Se cliquea el desplegable Account y luego la opción Register</name>
+                    <title>Se cliquea el desplegable Account y luego la opción Register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684715736363' status='passed' stop='1684715736396'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2be1c006-f06c-4b1f-9acb-1e6572692d00-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='27870468-29aa-429e-a32c-141f48841c62-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684715736402' status='passed' stop='1684715736459'>
+                    <name>POST /session/:sessionId/element/9183928FBCF794DD79890EDA5A5A523B_element_35/click</name>
+                    <title>POST /session/:sessionId/element/9183928FBCF794DD79890EDA5A5A523B_element_35/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684715736459' status='passed' stop='1684715736494'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9aefae4f-433c-4cad-b085-318704034ba8-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='49b6e315-2ac8-4820-8624-46fb9334c1e6-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684715736497' status='passed' stop='1684715737621'>
+                    <name>POST /session/:sessionId/element/9183928FBCF794DD79890EDA5A5A523B_element_36/click</name>
+                    <title>POST /session/:sessionId/element/9183928FBCF794DD79890EDA5A5A523B_element_36/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684715737621' status='passed' stop='1684715737621'>
+                    <name>Se completa el formulario con datos del usuario y se registra</name>
+                    <title>Se completa el formulario con datos del usuario y se registra</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684715737623' status='passed' stop='1684715737757'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a65ef6a1-c607-49fd-acd2-6b3947e06293-attachment.png' type='image/png' size='52691'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>namee is not defined</message>
+                <stack-trace>ReferenceError: namee is not defined
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Register.test.js:20:5)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

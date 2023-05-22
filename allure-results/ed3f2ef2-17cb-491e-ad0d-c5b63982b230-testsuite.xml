@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684725434091' stop='1684725437202'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684725434092' status='broken' stop='1684725437201'>
+            <name>Debería redirigirse a Register, ingresar los datos del usuario y registrarse</name>
+            <title>Debería redirigirse a Register, ingresar los datos del usuario y registrarse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684725434094' status='passed' stop='1684725436228'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='54040289-c30d-4a38-a8dd-bba8220d0fc5-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684725436244' status='passed' stop='1684725436244'>
+                    <name>Se cliquea el desplegable Account y luego la opción Register</name>
+                    <title>Se cliquea el desplegable Account y luego la opción Register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684725436246' status='passed' stop='1684725436320'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='726bbef9-bfe8-42ee-bb3f-7d544d6e42c9-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='2fda9357-64ea-42c7-96fb-08579ddb1720-attachment.json' type='application/json' size='89'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684725436327' status='passed' stop='1684725436391'>
+                    <name>POST /session/:sessionId/element/CD3DE858813B1CF3D40DA82664A0253A_element_7/click</name>
+                    <title>POST /session/:sessionId/element/CD3DE858813B1CF3D40DA82664A0253A_element_7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684725436392' status='passed' stop='1684725436429'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='19409e2f-8ce8-46ab-bb21-29694d6d4fb4-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='ad66d5e3-7a2b-4168-afcd-a64a5e71eb58-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684725436431' status='passed' stop='1684725437000'>
+                    <name>POST /session/:sessionId/element/CD3DE858813B1CF3D40DA82664A0253A_element_56/click</name>
+                    <title>POST /session/:sessionId/element/CD3DE858813B1CF3D40DA82664A0253A_element_56/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684725437000' status='passed' stop='1684725437000'>
+                    <name>Se completa el formulario con datos del usuario y se registra</name>
+                    <title>Se completa el formulario con datos del usuario y se registra</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684725437000' status='passed' stop='1684725437031'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='932cb61e-4803-40bf-b4db-2a468058a23c-attachment.json' type='application/json' size='85'/>
+                        <attachment title='Response' source='9a22b7b2-1e28-480a-8102-342ca534bb34-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684725437035' status='passed' stop='1684725437081'>
+                    <name>GET /session/:sessionId/element/FA48B05105E588271D5628A2BA90AAC9_element_68/text</name>
+                    <title>GET /session/:sessionId/element/FA48B05105E588271D5628A2BA90AAC9_element_68/text</title>
+                    <attachments>
+                        <attachment title='Response' source='f91a6f9b-8ccb-48f2-8a4d-9ab35cc06965-attachment.json' type='application/json' size='19'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684725437092' status='passed' stop='1684725437200'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='552f47ae-f7f8-435d-b5f0-e8877601f712-attachment.png' type='image/png' size='52691'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Invalid Chai property: toBeExist</message>
+                <stack-trace>Error: Invalid Chai property: toBeExist
+                    at Object.proxyGetter [as get] (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\node_modules\chai\lib\chai\utils\proxify.js:78:17)
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Register.test.js:21:55)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

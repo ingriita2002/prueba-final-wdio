@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684715827255' stop='1684715835687'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684715827255' status='broken' stop='1684715835686'>
+            <name>Debería redirigirse a Register, ingresar los datos del usuario y registrarse</name>
+            <title>Debería redirigirse a Register, ingresar los datos del usuario y registrarse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684715827257' status='passed' stop='1684715834416'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b789fb55-bb1e-4275-ba2f-0c2498e37904-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684715834496' status='passed' stop='1684715834496'>
+                    <name>Se cliquea el desplegable Account y luego la opción Register</name>
+                    <title>Se cliquea el desplegable Account y luego la opción Register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684715834498' status='passed' stop='1684715834529'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dcedaf16-0264-44e5-aff8-4d0f75399abe-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='09ecee51-7d7d-46ab-bc72-52d03560777f-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684715834536' status='passed' stop='1684715834591'>
+                    <name>POST /session/:sessionId/element/28D65B4B4EADE6F121E8EB86B09417BF_element_35/click</name>
+                    <title>POST /session/:sessionId/element/28D65B4B4EADE6F121E8EB86B09417BF_element_35/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684715834592' status='passed' stop='1684715834627'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7c3038ce-7ab6-4072-9973-37fad4bf07e4-attachment.json' type='application/json' size='49'/>
+                        <attachment title='Response' source='c4e21d4d-c9cd-4c6c-88f6-8b050004c87f-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684715834629' status='passed' stop='1684715835538'>
+                    <name>POST /session/:sessionId/element/28D65B4B4EADE6F121E8EB86B09417BF_element_36/click</name>
+                    <title>POST /session/:sessionId/element/28D65B4B4EADE6F121E8EB86B09417BF_element_36/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684715835538' status='passed' stop='1684715835538'>
+                    <name>Se completa el formulario con datos del usuario y se registra</name>
+                    <title>Se completa el formulario con datos del usuario y se registra</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684715835544' status='passed' stop='1684715835684'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='78c26f6f-b7d8-45a1-b2e7-c25d9d71f040-attachment.png' type='image/png' size='52691'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'setValue')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'setValue')
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/Register.test.js:20:30)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684735125122' stop='1684735127786'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684735125123' status='broken' stop='1684735127785'>
+            <name>Debería buscar PARK AVENUE y seleccionar el producto</name>
+            <title>Debería buscar PARK AVENUE y seleccionar el producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684735125125' status='passed' stop='1684735126598'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ffc79ae1-ab9e-4e48-b4ed-2454136fd1a3-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735126610' status='passed' stop='1684735126610'>
+                    <name>Se busca el producto Park Avenue y se cliquea</name>
+                    <title>Se busca el producto Park Avenue y se cliquea</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684735126611' status='passed' stop='1684735126660'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f3e41dcd-821e-485b-b95d-f28e7279ba6b-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='d33c3b56-2b55-40f7-b71b-c20352e31882-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735126667' status='passed' stop='1684735126724'>
+                    <name>POST /session/:sessionId/element/CB1C2FD96C998610538B14FD4A2FFE5B_element_41/clear</name>
+                    <title>POST /session/:sessionId/element/CB1C2FD96C998610538B14FD4A2FFE5B_element_41/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684735126730' status='passed' stop='1684735126801'>
+                    <name>POST /session/:sessionId/element/CB1C2FD96C998610538B14FD4A2FFE5B_element_41/value</name>
+                    <title>POST /session/:sessionId/element/CB1C2FD96C998610538B14FD4A2FFE5B_element_41/value</title>
+                    <attachments>
+                        <attachment title='Request' source='41dfb904-cc4f-435a-a5ef-cc7815eb4062-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735126802' status='passed' stop='1684735126823'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d420d32c-e612-43a6-85a9-99fbec489641-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='198a265a-a1f5-4963-9f4a-06b2fea2ff51-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735126827' status='passed' stop='1684735127607'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='8feeefb4-0cfe-41e7-9e64-ba6f9746666a-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684735127607' status='passed' stop='1684735127628'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684735127629' status='passed' stop='1684735127783'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='299c8e56-a751-4703-84f9-7d57b25cb068-attachment.png' type='image/png' size='87017'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>productPage is not defined</message>
+                <stack-trace>ReferenceError: productPage is not defined
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\.vscode\Wdio-Curso-Abstracta\tests\/4_Product.test.js:15:5)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
