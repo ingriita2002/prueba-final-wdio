@@ -17,16 +17,4 @@ export default class BasePage {
     await element.waitForClickable({ timeout: PAGE_TIMEOUT });
     await element.click();
   }
-
-  /**
-   * Send text from an element to another
-   * @param {Object} element
-   * @param {String} text
-   */
-  async emptyFieldAndSendText(element, text) {
-    await element.waitForClickable({ timeout: PAGE_TIMEOUT });
-    await element.clearValue();
-    await element.click();
-    await element.keys(text);
-  }
 }
