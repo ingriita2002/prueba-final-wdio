@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684906828725' stop='1684906833123'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684906828725' status='failed' stop='1684906833122'>
+            <name>Debería buscar PARK AVENUE e ingresar a el producto</name>
+            <title>Debería buscar PARK AVENUE e ingresar a el producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684906828727' status='passed' stop='1684906830640'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f20e1667-0af0-44ec-be58-33ec045ea7ce-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684906830662' status='passed' stop='1684906830662'>
+                    <name>Se busca el producto "Park Avenue" y se cliquea</name>
+                    <title>Se busca el producto "Park Avenue" y se cliquea</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684906830665' status='passed' stop='1684906830697'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='da6b63ca-ace7-4470-b31b-52a7e97b7034-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='cfad112d-b6d9-4369-9485-312cd8cd9a5f-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684906830702' status='passed' stop='1684906830749'>
+                    <name>POST /session/:sessionId/element/23BB22CD87875C406C06420A166EEF42_element_31/clear</name>
+                    <title>POST /session/:sessionId/element/23BB22CD87875C406C06420A166EEF42_element_31/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684906830754' status='passed' stop='1684906830828'>
+                    <name>POST /session/:sessionId/element/23BB22CD87875C406C06420A166EEF42_element_31/value</name>
+                    <title>POST /session/:sessionId/element/23BB22CD87875C406C06420A166EEF42_element_31/value</title>
+                    <attachments>
+                        <attachment title='Request' source='1aa4b3f7-8b2b-4e65-ad0f-e9f7e62b6f69-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684906830828' status='passed' stop='1684906830848'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f6320682-5f12-4386-8581-a1e191cd37e0-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='0690df64-092b-4a20-9f6d-e3d13f151b51-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684906830850' status='passed' stop='1684906831742'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='dd0f0b64-f93b-4269-b47c-f594fcea402e-attachment.json' type='application/json' size='249'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684906831742' status='passed' stop='1684906831764'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684906831765' status='passed' stop='1684906831791'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ffcc09f3-c9ea-4ba1-855a-dfa1ce522884-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='13a0fe7c-6ad0-42d8-b379-5e965e7334b6-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684906831793' status='passed' stop='1684906832926'>
+                    <name>POST /session/:sessionId/element/9B3EAC459A9440A8B75AEC86C45CF26D_element_43/click</name>
+                    <title>POST /session/:sessionId/element/9B3EAC459A9440A8B75AEC86C45CF26D_element_43/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684906832927' status='passed' stop='1684906832953'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bdac6196-0387-4e42-bd9c-828deb68cf64-attachment.json' type='application/json' size='100'/>
+                        <attachment title='Response' source='5c5dae53-a287-41e3-a7be-5d7e0ca0f710-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684906832955' status='passed' stop='1684906832978'>
+                    <name>GET /session/:sessionId/element/2C9D35BBCC39D7834E7B0119A385A25A_element_55/text</name>
+                    <title>GET /session/:sessionId/element/2C9D35BBCC39D7834E7B0119A385A25A_element_55/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684906832983' status='passed' stop='1684906833118'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3be5c5ef-8947-453b-8229-5dee715153ad-attachment.png' type='image/png' size='168570'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: No se muestra el producto: expected '' to equal 'PARK AVENUE PLEAT FRONT TROUSERS'      
+                      actual expected
+                      
+                      'PARK AVENUE PLEAT FRONT TROUSERS'
+                      </message>
+                <stack-trace>AssertionError: Error: No se muestra el producto: expected '' to equal 'PARK AVENUE PLEAT FRONT TROUSERS'
+                    at Context.&lt;anonymous> (C:\Users\Ingra Camarda\prueba-final-wdio\tests\/4_Product.test.js:19:10)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

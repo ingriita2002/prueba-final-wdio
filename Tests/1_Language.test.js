@@ -11,6 +11,9 @@ describe('Madison Island', () => {
     await HomePage.Language.click();
     AllureReporter.addStep('Se cliquea el idioma German');
     await HomePage.germanBtn.click();
-    expect(await HomePage.germanBtn.getText()).to.be.equal('German');
+    expect(
+      await HomePage.germanBtn.getText(),
+      'Error: El el idioma aleman no se encuentra'
+    ).to.equal('German');
   });
 });

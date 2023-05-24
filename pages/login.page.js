@@ -1,4 +1,6 @@
-class LoginPage {
+import BasePage from './base.page';
+
+class LoginPage extends BasePage {
   get mailLogin() {
     return $('#email');
   }
@@ -13,6 +15,16 @@ class LoginPage {
   }
   get already() {
     return $('h2=Already registered?');
+  }
+  /**
+   * Esperar a que inicie sesion
+   * @param {String} email
+   * @param {String} pass
+   */
+  async loginUser(email, pass) {
+    await this.mailLogin.setValue(email);
+    await this.passwordLogin.setValue(pass);
+    await this.clickElement(this.buttonLogin);
   }
 }
 export default new LoginPage();

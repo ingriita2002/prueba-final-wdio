@@ -13,9 +13,10 @@ describe('Madison Island', () => {
     await HomePage.search.setValue(datosProduct.productOne);
     await HomePage.search.keys('Enter');
     await ProductPage.product.click();
+
     expect(
       await ProductPage.titleProductOne.getText(),
-      'Park Avenue Pleat Front Trousers'
-    );
+      'Error: No se muestra el producto'
+    ).to.equal('PARK AVENUE PLEAT FRONT TROUSERS');
   });
 });

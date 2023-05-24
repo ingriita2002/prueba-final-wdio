@@ -1,4 +1,6 @@
-class RegisterPage {
+import BasePage from './base.page';
+
+class RegisterPage extends BasePage {
   get namee() {
     return $('#firstname');
   }
@@ -25,6 +27,21 @@ class RegisterPage {
   }
   get logoutComplete() {
     return $('h1=You are now logged out');
+  }
+  /**
+   * Esperar a que inicie sesion
+   * @param {String} firstname
+   * @param {String} lastname
+   * @param {String} email
+   * @param {String} pass
+   */
+  async registerUser(firstname, lastname, email, pass) {
+    await this.namee.setValue(firstname);
+    await this.lastname.setValue(lastname);
+    await this.mailRegister.setValue(email);
+    await this.passwordRegister.setValue(pass);
+    await this.passConfirm.setValue(pass);
+    await this.buttonRegister.keys('Enter');
   }
 }
 export default new RegisterPage();

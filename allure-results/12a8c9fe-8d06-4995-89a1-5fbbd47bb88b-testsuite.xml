@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1684899803241' stop='1684899864675'>
+    <name>Madison Island</name>
+    <title>Madison Island</title>
+    <test-cases>
+        <test-case start='1684899803242' status='broken' stop='1684899864673'>
+            <name>Debería loguearse</name>
+            <title>Debería loguearse</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+                <parameter kind='argument' name='browser' value='chrome-113.0.5672.127'/>
+            </parameters>
+            <steps>
+                <step start='1684899803244' status='passed' stop='1684899804637'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='c0ac4fa1-a0ca-4713-bd4c-2b08f6043178-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684899804653' status='passed' stop='1684899804653'>
+                    <name>Se cliquea el desplegable Account y luego la opción Register</name>
+                    <title>Se cliquea el desplegable Account y luego la opción Register</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684899804654' status='passed' stop='1684899804702'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5a628f65-383c-44d0-9288-07963feaf3b1-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='6a1e2b55-c2b1-448b-87cc-41032af9a866-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684899804708' status='passed' stop='1684899804729'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='efc21cec-9bd8-4a3f-875c-3cf7358efe26-attachment.json' type='application/json' size='8718'/>
+                        <attachment title='Response' source='227098ac-a8b6-44ba-88c8-95b5123b8d25-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684899804729' status='passed' stop='1684899804747'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='925160ec-ddfd-4a8e-b398-fbf7bc1c18f6-attachment.json' type='application/json' size='5887'/>
+                        <attachment title='Response' source='1144c359-166e-4a99-9df4-a8357a2356e1-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684899804748' status='passed' stop='1684899804796'>
+                    <name>POST /session/:sessionId/element/10228000C3F82C3F652F3CA28F260E7D_element_41/click</name>
+                    <title>POST /session/:sessionId/element/10228000C3F82C3F652F3CA28F260E7D_element_41/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684899804797' status='passed' stop='1684899804829'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6317521d-ad44-479f-9f18-5d442dff11d4-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='ba40c728-01bc-40d1-8c00-43d13693862a-attachment.json' type='application/json' size='90'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684899804832' status='passed' stop='1684899804855'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='73494f03-6fc8-4278-abab-97aa26f41729-attachment.json' type='application/json' size='8718'/>
+                        <attachment title='Response' source='0a8c66f4-aa93-44a7-bbf0-3e9ad3f6694c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684899804855' status='passed' stop='1684899804872'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='00183359-302f-469c-8cf5-2aed4f503b1e-attachment.json' type='application/json' size='5887'/>
+                        <attachment title='Response' source='96245834-5383-4a35-a2f3-cddd67f208d2-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1684899804872' status='passed' stop='1684899805412'>
+                    <name>POST /session/:sessionId/element/10228000C3F82C3F652F3CA28F260E7D_element_42/click</name>
+                    <title>POST /session/:sessionId/element/10228000C3F82C3F652F3CA28F260E7D_element_42/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1684899805412' status='passed' stop='1684899805412'>
+                    <name>Se escriben las credenciales del usuario y se inicia sesión</name>
+                    <title>Se escriben las credenciales del usuario y se inicia sesión</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Madison Island Debería loguearse" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Ingra Camarda\prueba-final-wdio\tests\3_Login.test.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Madison Island Debería loguearse" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Ingra Camarda\prueba-final-wdio\tests\3_Login.test.js)
+                    at createTimeoutError (C:\Users\Ingra Camarda\prueba-final-wdio\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\Ingra Camarda\prueba-final-wdio\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\Ingra Camarda\prueba-final-wdio\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:569:17)
+                    at processTimers (node:internal/timers:512:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

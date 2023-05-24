@@ -3,10 +3,10 @@ class ProductPage {
     return $('[title="View Details"]');
   }
   get titleProductOne() {
-    return $('[title="Park Avenue Pleat Front Trousers"]');
+    return $('.h1');
   }
   get titleProductTwo() {
-    return $('[title="Core Striped Sport Shirt"]');
+    return $('.h1');
   }
   get color() {
     return $('#attribute92');
@@ -18,7 +18,7 @@ class ProductPage {
     return $('[title="Add to Cart"]');
   }
   get titleTwo() {
-    return $('h1=Shoping Cart');
+    return $('h1=Shopping Cart');
   }
 }
 export default new ProductPage();
