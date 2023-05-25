@@ -15,5 +15,13 @@ describe('Madison Island', () => {
       await HomePage.germanBtn.getText(),
       'Error: El el idioma aleman no se encuentra'
     ).to.equal('German');
+    expect(
+      await browser.checkElement(
+        await $('#select-language'),
+        'Foto-boton-German',
+        {}
+      ),
+      'Error: El idioma no cambio'
+    ).equal(0);
   });
 });
